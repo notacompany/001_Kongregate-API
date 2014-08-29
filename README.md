@@ -11,7 +11,7 @@ a few lines and start to use many methods!
 A short example is shown in src/Main.as which shows how to connect and use the class.
 
 Full list of available methods:
- - Login (registers whether the user logged in on Kongregate)
+ - Login (registers when the user logged in on Kongregate through the 'Welcome' dialog. This allows the user to login without having to refresh the page/game)
  - ShowRegistrationBox (prompts a registration lightbox to the user)
  - SaveSharedContent (save shared content to the Kongregate server)
  - BrowseSharedContent (Show a list of shared content in the user's browser to allow the user to view, rate or load shared content)
@@ -29,5 +29,7 @@ Full list of available methods:
  - get UserId (returns the userId of the user)
  - get Guest (returns true/false whether the user is a guest)
  - get GameAuthToken (returns the game authentication token)
+
+All methods are called using Kongregate.API. Example: Kongregate.API.Login();
 
 Get ready to create your social games on http://www.kongregate.com/ now!
