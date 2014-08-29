@@ -37,6 +37,7 @@ package
 		private function OnKongregateLoaded(e:Event):void 
 		{
 			// Kongregate is now fully loaded and ready to be used!
+			// You can call any method in the class using Kongregate.API
 			
 			// Example: Check if the user playing your game is a guest or not.
 			var isGuest:Boolean = Kongregate.API.Guest;
