@@ -24,7 +24,6 @@ Full list of available methods:
  - PostShout (post a 'shout' to the user's profile)
  - SendPrivateMessage (send a private message to the user)
  - InviteFriend (invite someone on the user's friendlist to the game)
-
  - get User (returns the user object)
  - get Username (returns the username of the user)
  - get UserId (returns the userId of the user)
